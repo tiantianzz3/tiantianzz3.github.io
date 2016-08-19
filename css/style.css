@@ -1,0 +1,287 @@
+body {
+  background: #f5f5f5;
+}
+body .content {
+  max-width: 640px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .content .head {
+  height: 30px;
+  padding: 7px 40px 9px;
+}
+body .content .head .left {
+  margin-left: -40px;
+}
+body .content .head .ipt {
+  width: 100%;
+  position: relative;
+}
+body .content .head .ipt input {
+  width: 100%;
+  height: 30px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  background: #ebebeb;
+  border-radius: 5px;
+}
+body .content .head .ipt i {
+  display: block;
+  width: 17px;
+  height: 17px;
+  background: url(../img/3.png) no-repeat;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+body .content .head .right {
+  margin-right: -40px;
+}
+body .content .banner .top {
+  position: relative;
+  width: 100%;
+  border: 4px solid #fff;
+  box-sizing: border-box;
+}
+body .content .banner .top .img img {
+  width: 100%;
+}
+body .content .banner .top .list {
+  position: absolute;
+  bottom: 9px;
+  left: 50%;
+  margin-left: -72px;
+}
+body .content .banner .top .list li {
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  border-radius: 5px;
+  margin-right: 12px;
+}
+body .content .banner .top .list li:hover {
+  background: #e4393c;
+}
+body .content .banner .top .list li.active {
+  background: #e4393c;
+}
+body .content .banner .bottom {
+  padding: 8px 0px 11px;
+  background: #fff;
+  border-bottom: 1px solid #e1e1e1;
+}
+body .content .banner .bottom div {
+  width: 25%;
+}
+body .content .banner .bottom div a {
+  display: block;
+  text-align: center;
+  background: url(../img/9.png) no-repeat 100% 50%;
+}
+body .content .banner .bottom div a .tp {
+  display: block;
+  width: 25px;
+  height: 22px;
+  margin: 0 auto;
+  margin-bottom: 4px;
+}
+body .content .banner .bottom div a .mz {
+  font: 12px "宋体";
+  color: #7f7f7f;
+}
+body .content .banner .bottom div a.last {
+  background: none;
+}
+body .content .menu1 {
+  margin-top: 11px;
+  background: #fff;
+}
+body .content .menu1 .top {
+  height: 32px;
+  padding-left: 7px;
+}
+body .content .menu1 .top h2 {
+  font: 14px/32px "宋体";
+  color: #7f7f7f;
+  padding-left: 10px;
+  background: url(../img/10.png) no-repeat 0 50%;
+}
+body .content .menu1 .top ul {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+body .content .menu1 .top ul li {
+  font: 12px/15px "宋体";
+}
+body .content .menu1 .top ul li.time {
+  width: 15px;
+  height: 15px;
+  background: #5d5d5d;
+  text-align: center;
+  margin-right: 2px;
+  color: #fff;
+}
+body .content .menu1 .bottom .list li {
+  width: 33.3%;
+  border: 1px  solid #dadada;
+  box-sizing: border-box;
+  border-left: 0px;
+  text-align: center;
+}
+body .content .menu1 .bottom .list li.last {
+  border-right: 1px solid #fff;
+}
+body .content .menu1 .bottom .list li img {
+  width: 100%;
+}
+body .content .menu1 .bottom .list li .jg {
+  font: 9px "宋体";
+  color: #d8505c;
+}
+body .content .menu1 .bottom .list li .zk {
+  display: block;
+  width: 35%;
+  height: 15px;
+  background: #d8505c;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .content .menu2 {
+  border-bottom: 1px solid #e1e1e1;
+}
+body .content .menu2 .bottom {
+  border: 6px solid #fff;
+}
+body .content .menu2 .bottom img {
+  width: 100%;
+}
+body .content .menu3 {
+  border-bottom: 1px solid #e1e1e1;
+}
+body .content .menu3 .bottom {
+  width: 100%;
+}
+body .content .menu3 .bottom div {
+  width: 50%;
+}
+body .content .menu3 .bottom div img {
+  width: 100%;
+}
+body .content .menu3 .bottom div.left {
+  border-right: 1px solid #f5f5f5;
+  box-sizing: border-box;
+}
+body .content .menu3 .bottom div.right .a1 {
+  display: block;
+  border-bottom: 1px solid #f5f5f5;
+}
+body .content .menu5 {
+  border-bottom: 1px solid #e1e1e1;
+}
+body .content .menu5 .bottom {
+  width: 100%;
+}
+body .content .menu5 .bottom div {
+  width: 50%;
+}
+body .content .menu5 .bottom div .a1 {
+  display: block;
+  border-bottom: 1px solid #f5f5f5;
+}
+body .content .menu5 .bottom div img {
+  width: 100%;
+}
+body .content .menu7 {
+  margin-top: 11px;
+  background: #fff;
+  border-bottom: 1px solid #e1e1e1;
+}
+body .content .menu7 .top {
+  height: 32px;
+  padding-left: 7px;
+}
+body .content .menu7 .top h2 {
+  font: 14px/32px "宋体";
+  color: #7f7f7f;
+  padding-left: 10px;
+  background: url(../img/10.png) no-repeat 0 50%;
+}
+body .content .menu7 .bottom {
+  padding: 9px;
+}
+body .content .menu7 .bottom ul {
+  width: 50%;
+}
+body .content .menu7 .bottom ul.list1 li {
+  border-right: 4px solid #fff;
+  box-sizing: border-box;
+  margin-bottom: 9px;
+}
+body .content .menu7 .bottom ul.list1 li img {
+  width: 100%;
+}
+body .content .menu7 .bottom ul.list1 li.last {
+  margin-bottom: 0px;
+}
+body .content .menu7 .bottom ul.list2 li {
+  border-left: 4px solid #fff;
+  box-sizing: border-box;
+  margin-bottom: 9px;
+}
+body .content .menu7 .bottom ul.list2 li img {
+  width: 100%;
+}
+body .content .menu7 .bottom ul.list2 li.last {
+  margin-bottom: 0px;
+}
+body .footer {
+  max-width: 640px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 10px;
+}
+body .footer .top {
+  height: 34px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0px 11px;
+}
+body .footer .top div {
+  font: 12px/34px "宋体";
+  color: #666666;
+}
+body .footer .bottom {
+  padding: 14px 0px 36px;
+}
+body .footer .bottom .d1 {
+  height: 12px;
+  margin-bottom: 9px;
+  text-align: center;
+}
+body .footer .bottom .d1 a {
+  font: 12px/1 "宋体";
+  margin-right: 30px;
+  color: #6e6e6e;
+}
+body .footer .bottom .d1 a.a1 {
+  color: red;
+}
+body .footer .bottom .d1 a.last {
+  margin-right: 0px;
+}
+body .footer .bottom .d2 {
+  height: 12px;
+  font: 12px/1 "宋体";
+  margin-bottom: 10px;
+  text-align: center;
+  color: #6e6e6e;
+}
+body .footer .bottom .d3 {
+  font: 14px "宋体";
+  text-align: center;
+  color: #6e6e6e;
+}
